@@ -70,3 +70,11 @@
   margin-bottom: 30px;
   color: #6a6a6a;
 }
+
+/* footer */
+.footer {
+  background-color: whitesmoke;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
