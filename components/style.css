@@ -75,7 +75,6 @@
 .footer {
   background-color: white;
   color: black;
-  margin-top: 132px;
 }
 
 .footer-logo {
@@ -117,7 +116,7 @@
 }
 
 .text-muted {
-    color: #fff;
+  color: #fff;
 }
 
 .social-icon-circle {
