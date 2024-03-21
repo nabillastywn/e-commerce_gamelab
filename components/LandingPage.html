@@ -16,6 +16,16 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
+  <style>
+    .social-icon-circle {
+      width: 40px;
+      height: 40px;
+      background-color: #808080;
+      border-radius: 50%;
+      margin-right: 10px;
+      display: inline-block;
+    }
+  </style>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container">
@@ -370,12 +380,76 @@
     </section>
 
   <!-- Footer -->
-    <footer>
-      <div class="footer">
-        <span class="text-muted">Copyright © 2024 Bu Is Shop. All rights reserved.</span>
+  <section id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-logo">
+            <h2 style="font-size: 2em; color: green;">logo</h2>
+          </div>
+          <div class="footer-description">
+            <p>Lorem Ipsum is simply dummy text of the 
+              printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley.</p>
+          </div>
+          <div class="footer-social-icons">
+            <div class="social-icon-circle"></div>
+            <div class="social-icon-circle"></div>
+            <div class="social-icon-circle"></div>
+            <div class="social-icon-circle"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="footer-links">
+            <div class="row">
+              <div class="col-md-4">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Knowledge</a></li>
+                  <li><a href="#">base</a></li>
+                  <li><a href="#">Live chat</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">Our team</a></li>
+                  <li><a href="#">Leadership</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-links d-flex">
+              <ul class="me-5 mb-0">
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+              <ul class="mb-0">
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>          
+        </div>
       </div>
-    </footer>
-
+      <div class="row mt-3">
+        <div class="col">
+          <div class="text-center">
+            <span class="text-muted">Copyright 2024 kelompok3@gmail.com. All Rights Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -385,8 +459,5 @@
     <script>
       AOS.init();
     </script>
-
-    
-    
-  </body>
+  </body>
 </html>
