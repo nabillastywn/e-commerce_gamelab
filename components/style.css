@@ -73,7 +73,7 @@
 
 /* footer */
 .footer {
-  background-color: white;;
+  background-color: white;
   color: black;
   margin-top: 132px;
 }
@@ -83,8 +83,8 @@
 }
 
 .footer-description p {
-  width: 360px; 
-  height: 119px; 
+  width: 360px;
+  height: 119px;
   font-size: 16px;
   overflow: hidden; /* Jika konten lebih panjang, gunakan overflow: hidden; untuk menyembunyikan konten yang meluap */
 }
@@ -117,5 +117,14 @@
 }
 
 .text-muted {
-  color: #fff;
+    color: #fff;
+}
+
+.social-icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #808080;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
 }
